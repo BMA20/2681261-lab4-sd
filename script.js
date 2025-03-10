@@ -22,14 +22,6 @@ async function getData(CountryName) {
         <p><strong>Population</strong> ${population}</p>
         <p><strong>Region:</strong> ${region}</p>
         <p><strong>Flag:</strong> <img src ="${Flag}" alt ="Flag"> </p>`;
-
-        const borders = document.getElementById("bordering-countries");
-        
-        borders.innerHTML = `
-        <p><strong>Capital:</strong> ${Capital}</p>
-        <p><strong>Population</strong> ${population}</p>
-        <p><strong>Region:</strong> ${region}</p>
-        <p><strong>Flag:</strong> <img src ="${Flag}" alt ="Flag"> </p>`;
    
       });
       console.log(country);
